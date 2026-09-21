@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fb;
+    color: #202938;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    z-index: 1000;
+}
+
+.navegacao {
+    max-width: 1200px;
+    margin: auto;
+    padding: 18px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    color: #3157d5;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a :hover {
+    color: #3157d5;
+}
+
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    padding: 90px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-texto {
+    flex: 1;
+}
+
+.destaque {
+    color: #3157d5;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero h2 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 15px 0 25px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #5b6472;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-imagem {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hero-imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.botao {
+    display: inline block;
+
+    background-color: #3157d5;
+    color: #ffffff;
+
+    padding: 13px 24px;
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao :hover {
+    background-color: #1f3fa8;
+    transform: translate(-2px);
+}
+
+.secao {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+.titulo-secao h2 {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.introducao {
+    color: #5b6472;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.problema-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.problema-imagem {
+    flex: 1;
+}
+ 
+
+.problema-imagem img {
+    width: 100%;
+    border-radius: 18px;    
+} 
+
+
+.problema-texto {
+    flex: 1;
+}
+
+.problema-texto h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.problema-texto h1 :first-child {
+    margin-top: 0;
+}
+
+.problema-texto p {
+    color: #5b6472;
+    margin-bottom: 15px;
+}
+
+.informacoes {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.card :hover {
+    transform: translateY(-6px);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #667085;
+}
+
+.secao-destaque {
+    max-width: none;
+    background-color: #eaf0ff;
+}
+
+.solucoes-container {
+    display: flex;
+    gap: 25px;
+}
+
+.solucao {
+    flex: 1 1 30px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    display: flex;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.solucao h3 {
+    margin-bottom: 8px;
+}
+
+.solucao p {
+    color: #667085;
+}
+
+#recursos {
+    background-color: #f5f7fb;
+} 
+
+#recursos .introducao {
+    margin-bottom: 40px;
+}
+
+#recursos .informacoes {
+    display: flex;
+    gap: 25px;
+}
+
+#recursos .card {
+    flex: 1 1 30px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+#recursos .card :hover {
+    border-color: #3157d5;
+    box-shadow: 0 10px 25px rgba(49, 87, 213, 0.10);
+}
+
+#recursos .card h3 {
+    margin-bottom: 12px;
+    color: #202938;
+}
+
+#recursos .card p {
+    color: #667085;
+}
+
+.rodape {
+    background-color: #182033;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rodape h2, .rodape h3 {
+    margin-bottom: 10px;
+}
+
+.rodape p {
+    color: #c5cad5;
+}
+
+.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rodape a :hover {
+    text-decoration: underline;
+}
